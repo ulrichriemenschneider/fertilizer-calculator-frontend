@@ -1,0 +1,6 @@
+.child-box {
+  margin: 10px;
+  width: 500px;
+  border: dotted 2px red;
+  background-color: pink; 
+}
