@@ -1,19 +1,19 @@
-.calculator {
+.login {
   max-width: 400px;
   margin: 80px auto;
   padding: 30px;
   background-color: #f4f6f8;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login h1 {
+  text-align: center;
+  margin-bottom: 20px;
   color: #2c3e50;
 }
 
-.calculator h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.calculator-form {
+.login-form {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -29,10 +29,9 @@
   font-weight: bold;
 }
 
-.form-group input,
-.form-group select {
-  padding: 8px;
-  border-radius: 6px;
+.form-group input {
+  padding: 10px;
+  border-radius: 8px;
   border: 1px solid #ccc;
 }
 
@@ -44,6 +43,7 @@ button {
   color: white;
   border-radius: 8px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {

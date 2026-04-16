@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Calculator from "./pages/Calculator/Calculator";
 import Home from "./pages/Home/Home";
 import Impressum from "./pages/Impressum/Impressum";
+import Login from "./pages/Login/Login";
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <div className="app-container">
         <Navbar />
         <div className="content">
+          <Login />
           <Home />
           <Calculator />
           <Impressum />

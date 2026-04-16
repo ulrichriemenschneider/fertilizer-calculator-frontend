@@ -21,8 +21,8 @@ function Footer() {
 
         <div className="footer-section">
           <h4>Contact</h4>
-          <p>Email: info@fertilizer.com</p>
-          <p>Phone: +49 123 456789</p>
+          <p>Email: info@fertilizer-calculator.de</p>
+          <p>Phone: +49 176 80499381</p>
         </div>
 
       </div>
